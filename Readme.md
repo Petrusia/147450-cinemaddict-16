@@ -1,7 +1,7 @@
 # Проект «Киноман»
 
 * Студент: [Petras Blaževičius](https://up.htmlacademy.ru/ecmascript/16/user/147450).
-* Наставник: [Семён Якушев](https://htmlacademy.ru/profile/id1118791).
+* Наставник: [Семён Якушев](https://htmlacademy.ru/profile/id1118791). 
 
 ---
 
