@@ -6,7 +6,7 @@ import {createFilmsSectionTemplate} from './view/films-section-view.js';
 import {createSortTemplate} from './view/sort-view.js';
 import {createUserProfileTemplate} from './view/user-profile-view';
 import {createFilmCardTemplate} from './view/film-card-view';
-import {renderTemplate} from './render.js';
+import {renderTemplate, RenderPosition} from './render.js';
 import {createFooterStatisticsTemplate} from './view/footer-statistics-view';
 
 const CARDS_COUNT = 5;
@@ -29,4 +29,4 @@ for (let i = 0; i < CARDS_COUNT; i++) {
 }
 renderTemplate(filmsList, createFilmsShowMoreBtnTemplate());
 renderTemplate(siteFooterStatisticsElement, createFooterStatisticsTemplate());
-renderTemplate(siteFooterElement, createFilmDetailsPopupTemplate());
+renderTemplate(siteFooterElement, createFilmDetailsPopupTemplate(), RenderPosition.AFTEREND);
