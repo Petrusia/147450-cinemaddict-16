@@ -481,7 +481,7 @@ for (let i = 0; i < CARDS_COUNT; i++) {
 
 (0,_render_js__WEBPACK_IMPORTED_MODULE_8__.renderTemplate)(filmsList, (0,_view_films_show_more_btn_view_js__WEBPACK_IMPORTED_MODULE_3__.createFilmsShowMoreBtnTemplate)());
 (0,_render_js__WEBPACK_IMPORTED_MODULE_8__.renderTemplate)(siteFooterStatisticsElement, (0,_view_footer_statistics_view__WEBPACK_IMPORTED_MODULE_9__.createFooterStatisticsTemplate)());
-(0,_render_js__WEBPACK_IMPORTED_MODULE_8__.renderTemplate)(siteFooterElement, (0,_view_film_details_popup_view_js__WEBPACK_IMPORTED_MODULE_1__.createFilmDetailsPopupTemplate)());
+(0,_render_js__WEBPACK_IMPORTED_MODULE_8__.renderTemplate)(siteFooterElement, (0,_view_film_details_popup_view_js__WEBPACK_IMPORTED_MODULE_1__.createFilmDetailsPopupTemplate)(), _render_js__WEBPACK_IMPORTED_MODULE_8__.RenderPosition.AFTEREND);
 })();
 
 /******/ })()
